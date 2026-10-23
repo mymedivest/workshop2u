@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workshop Location Options – Workshop2U</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Workshop<span>2U</span></a>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <nav class="nav" id="nav">
+    <a href="index.html">Home</a>
+    <div class="has-sub"><a href="services.html">Services</a><div class="sub"><a href="service-packages.html">Our Service Packages</a><a href="car-wash.html">Car Wash Service</a><a href="troubleshooting-repair.html">Troubleshooting & Repair</a><a href="ac-services.html">A/C Services</a><a href="mobile-service.html">Mobile Service Onsite</a></div></div>
+    <a href="contact.html">Contact Us</a>
+    <a href="members.html">Members</a>
+    <a class="btn btn-accent" href="book.html">Book Appointment</a>
+  </nav>
+</header>
+<main>
+<section class="banner"><p class="kicker">Schedule an appointment</p><h1>Book Appointment</h1>
+<p class="crumbs"><a href="index.html">Workshop2U</a> / Book Appointment</p></section>
+<section class=""><div class="in"><div class="narrow"><h2>Select your location</h2><p class="lead">Select your preferred location for booking.</p>
+<form class="std" novalidate data-ok="Thanks, {name}. We will confirm your appointment at {location} by phone.">
+<div class="locs"><label class="loc"><input type="radio" name="location" value="Ayer Keroh, Melaka" required><span><b>Ayer Keroh, Melaka</b><small>2, Jalan KPTU 5</small></span></label><label class="loc"><input type="radio" name="location" value="Senawang, Negeri Sembilan" required><span><b>Senawang, Negeri Sembilan</b><small>8, Persiaran Sinar Andalas 1</small></span></label><label class="loc"><input type="radio" name="location" value="Kempas, Johor" required><span><b>Kempas, Johor</b><small>31, Jln Kempas Lama 2/7</small></span></label></div>
+<label>Name *<input name="name" required autocomplete="name"></label>
+<label>Phone *<input name="phone" type="tel" required autocomplete="tel"></label>
+<label>Service *<select name="service" required><option value="">Choose a service</option>
+<option>Service Package (from RM 149)</option><option>Car Wash (from RM 10)</option><option>Troubleshooting &amp; Repair (from RM 30)</option><option>A/C Performance Check (RM 185)</option><option>Mobile Service Onsite</option></select></label>
+<div class="row"><label>Preferred date *<input name="date" type="date" required></label>
+<label>Preferred time *<select name="time" required><option value="">Choose a time</option><option>8:00am</option><option>10:00am</option><option>12:00pm</option><option>2:00pm</option><option>4:00pm</option></select></label></div>
+<label class="check"><input type="checkbox" name="pickup"> I need pickup and delivery</label>
+<button class="btn btn-accent" type="submit">Request appointment</button><p class="form-msg" role="status" aria-live="polite"></p></form></div></div></section>
+</main>
+<footer class="site-footer" id="site-footer">
+  <div><h4>About Workshop2U</h4><p>A brand of Mobility Venture offering seamless pickup and delivery, with expert auto care that comes to you.</p></div>
+  <div><h4>Services menu</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="service-packages.html">Our Service Packages</a><a href="car-wash.html">Car Wash Service</a><a href="troubleshooting-repair.html">Troubleshooting & Repair</a><a href="ac-services.html">A/C Services</a><a href="mobile-service.html">Mobile Service Onsite</a><a href="contact.html">Contact Us</a><a href="members.html">Members</a></div>
+  <div><h4>Contact details</h4><p>2, Jalan KPTU 5<br>Ayer Keroh, Melaka</p>
+    <p>Line: 06-233 0543<br>Mobile: 013-713 7100<br>Monday – Saturday, 8:00am – 5:00pm</p>
+    <p>We reply within 1 day<br>customercare@workshop2u.com.my</p></div>
+  <div><h4>Opening hours</h4><ul class="hours" id="hours"><li data-d="1"><span>Monday</span><span>08:00 – 17:00</span></li><li data-d="2"><span>Tuesday</span><span>08:00 – 17:00</span></li><li data-d="3"><span>Wednesday</span><span>08:00 – 17:00</span></li><li data-d="4"><span>Thursday</span><span>08:00 – 17:00</span></li><li data-d="5"><span>Friday</span><span>08:00 – 17:00</span></li><li data-d="6"><span>Saturday</span><span>08:00 – 12:00</span></li><li data-d="0"><span>Sunday</span><span>Closed</span></li></ul></div>
+  <p class="copy">© <span id="year"></span> Workshop2U &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms-and-conditions.html">Terms and Conditions</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
